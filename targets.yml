@@ -1,4 +1,7 @@
 targets:
+  - name: 国際農研機関リポジトリ(TEST)
+    url: https://jircas.repo.nii.ac.jp/
+    primary: false
   - name: 国際農研機関リポジトリ
     url: https://jircas.repo.nii.ac.jp/
     primary: false
