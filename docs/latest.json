@@ -1,18 +1,18 @@
 {
-  "checked_at": "2026-07-09T14:32:58+09:00",
+  "checked_at": "2026-07-09T14:37:56+09:00",
   "thresholds": {
     "slow_sec": 5,
     "very_slow_sec": 15,
     "timeout_sec": 20
   },
   "summary": {
-    "level": "VERY_SLOW",
-    "message": "複数サイトで応答遅延または異常を確認しました。広域的遅延の可能性があります。",
+    "level": "OK",
+    "message": "大きな異常は確認されていません。",
     "counts": {
-      "OK": 1,
-      "SLOW": 1,
+      "OK": 3,
+      "SLOW": 0,
       "VERY_SLOW": 0,
-      "SERVER_ERROR": 1,
+      "SERVER_ERROR": 0,
       "TIMEOUT": 0,
       "UNKNOWN": 0
     },
@@ -25,8 +25,8 @@
       "url": "https://jircas.repo.nii.ac.jp/",
       "primary": false,
       "status_code": 200,
-      "elapsed_sec": 5.294,
-      "state": "SLOW",
+      "elapsed_sec": 3.719,
+      "state": "OK",
       "error_type": null,
       "error": null
     },
@@ -35,7 +35,7 @@
       "url": "https://repository.naro.go.jp/",
       "primary": false,
       "status_code": 200,
-      "elapsed_sec": 3.573,
+      "elapsed_sec": 1.271,
       "state": "OK",
       "error_type": null,
       "error": null
@@ -44,11 +44,11 @@
       "name": "つくばリポジトリ",
       "url": "https://tsukuba.repo.nii.ac.jp/",
       "primary": false,
-      "status_code": 502,
-      "elapsed_sec": 0.37,
-      "state": "SERVER_ERROR",
+      "status_code": 200,
+      "elapsed_sec": 1.217,
+      "state": "OK",
       "error_type": null,
-      "error": "HTTP 502: Bad Gateway"
+      "error": null
     }
   ]
 }
