@@ -2,9 +2,8 @@ name: JAIRO Cloud Light Check
 
 on:
   workflow_dispatch:
-
-schedule:
-  - cron: "*/5 * * * *"
+  schedule:
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
