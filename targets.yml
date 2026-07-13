@@ -1,9 +1,9 @@
 targets:
-  - name: 国際農研機関リポジトリ
-    url: https://jircas.repo.nii.ac.jp/
-    primary: false
-  - name: 農研機構機関リポジトリ
-    url: https://repository.naro.go.jp/
+  - name: 三重大学
+    url: https://mie-u.repo.nii.ac.jp/
+    primary: true
+  - name: 名古屋大学リポジトリ
+    url: https://nagoya.repo.nii.ac.jp/
     primary: false
   - name: つくばリポジトリ
     url: https://tsukuba.repo.nii.ac.jp/
