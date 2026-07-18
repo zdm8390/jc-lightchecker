@@ -1,23 +1,23 @@
 {
-  "checked_at": "2026-07-18T21:07:54+09:00",
+  "checked_at": "2026-07-18T22:53:19+09:00",
   "thresholds": {
     "slow_sec": 5,
     "very_slow_sec": 15,
     "timeout_sec": 20
   },
   "summary": {
-    "level": "OK",
-    "message": "大きな異常は確認されていません。",
+    "level": "SLOW",
+    "message": "primary サイトに異常または遅延があります。他サイトが正常なら自機関固有の可能性があります。",
     "counts": {
-      "OK": 3,
-      "SLOW": 0,
+      "OK": 2,
+      "SLOW": 1,
       "VERY_SLOW": 0,
       "SERVER_ERROR": 0,
       "TIMEOUT": 0,
       "UNKNOWN": 0
     },
     "total": 3,
-    "primary_state": "OK"
+    "primary_state": "SLOW"
   },
   "results": [
     {
@@ -25,8 +25,8 @@
       "url": "https://mie-u.repo.nii.ac.jp/",
       "primary": true,
       "status_code": 200,
-      "elapsed_sec": 0.879,
-      "state": "OK",
+      "elapsed_sec": 6.819,
+      "state": "SLOW",
       "error_type": null,
       "error": null
     },
@@ -35,7 +35,7 @@
       "url": "https://nagoya.repo.nii.ac.jp/",
       "primary": false,
       "status_code": 200,
-      "elapsed_sec": 0.918,
+      "elapsed_sec": 2.031,
       "state": "OK",
       "error_type": null,
       "error": null
@@ -45,7 +45,7 @@
       "url": "https://tsukuba.repo.nii.ac.jp/",
       "primary": false,
       "status_code": 200,
-      "elapsed_sec": 1.11,
+      "elapsed_sec": 4.444,
       "state": "OK",
       "error_type": null,
       "error": null
