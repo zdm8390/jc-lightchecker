@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-07-19T08:31:22+09:00",
+  "checked_at": "2026-07-19T10:04:45+09:00",
   "thresholds": {
     "slow_sec": 5,
     "very_slow_sec": 15,
@@ -9,10 +9,10 @@
     "level": "VERY_SLOW",
     "message": "複数サイトで応答遅延または異常を確認しました。広域的遅延の可能性があります。",
     "counts": {
-      "OK": 0,
-      "SLOW": 1,
-      "VERY_SLOW": 1,
-      "SERVER_ERROR": 1,
+      "OK": 1,
+      "SLOW": 2,
+      "VERY_SLOW": 0,
+      "SERVER_ERROR": 0,
       "TIMEOUT": 0,
       "UNKNOWN": 0
     },
@@ -25,7 +25,7 @@
       "url": "https://mie-u.repo.nii.ac.jp/",
       "primary": true,
       "status_code": 200,
-      "elapsed_sec": 13.26,
+      "elapsed_sec": 8.346,
       "state": "SLOW",
       "error_type": null,
       "error": null
@@ -35,8 +35,8 @@
       "url": "https://nagoya.repo.nii.ac.jp/",
       "primary": false,
       "status_code": 200,
-      "elapsed_sec": 15.624,
-      "state": "VERY_SLOW",
+      "elapsed_sec": 5.752,
+      "state": "SLOW",
       "error_type": null,
       "error": null
     },
@@ -44,11 +44,11 @@
       "name": "つくばリポジトリ",
       "url": "https://tsukuba.repo.nii.ac.jp/",
       "primary": false,
-      "status_code": 502,
-      "elapsed_sec": 0.713,
-      "state": "SERVER_ERROR",
+      "status_code": 200,
+      "elapsed_sec": 3.628,
+      "state": "OK",
       "error_type": null,
-      "error": "HTTP 502: Bad Gateway"
+      "error": null
     }
   ]
 }
