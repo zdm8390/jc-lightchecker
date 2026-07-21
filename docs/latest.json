@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-07-22T06:49:27+09:00",
+  "checked_at": "2026-07-22T07:39:57+09:00",
   "thresholds": {
     "slow_sec": 5,
     "very_slow_sec": 15,
@@ -25,7 +25,7 @@
       "url": "https://mie-u.repo.nii.ac.jp/",
       "primary": true,
       "status_code": 200,
-      "elapsed_sec": 0.779,
+      "elapsed_sec": 1.031,
       "state": "OK",
       "error_type": null,
       "error": null
@@ -35,7 +35,7 @@
       "url": "https://nagoya.repo.nii.ac.jp/",
       "primary": false,
       "status_code": 200,
-      "elapsed_sec": 0.814,
+      "elapsed_sec": 1.023,
       "state": "OK",
       "error_type": null,
       "error": null
@@ -45,7 +45,7 @@
       "url": "https://tsukuba.repo.nii.ac.jp/",
       "primary": false,
       "status_code": 200,
-      "elapsed_sec": 0.877,
+      "elapsed_sec": 1.018,
       "state": "OK",
       "error_type": null,
       "error": null
